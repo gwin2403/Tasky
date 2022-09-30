@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+}
+.Menu-00{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+   background-color: white;
+margin-top: 8px;
+border-right: 1px solid black;
+transition: 0.45s;
+}
+.Menu-00-new{
+    width: 100px;
+    justify-content: center;
+    transition: 0.45s;
+}
+.Menu-00-new .Menu-01{
+    display: flex;
+    align-items: center;
+}
+.Menu-00-new .Menu-icon{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Menu-00-new .Menu-icon span{
+    font-size: 1.8rem;
+}
+.Menu-001-new{
+    margin-top: 20px;
+}
+.Menu-001-new input{
+    display: none;
+}
+.Menu-icon span{
+    color: black;
+}
+.material-symbols-outlined:hover{
+}
+.material-symbols-outlined{
+    font-weight: 500;
+}
+.Menu-001{
+    width: 90%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: whitesmoke;
+    margin-top: 18px;
+    border-bottom: 3px solid black;
+}
+.Menu-001 input{
+    width: 80%;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    background-color: whitesmoke;
+   font-size: 1.1rem;
+}
+
+.Menu-01 {
+    display: flex;
+    width: 95%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.Menu-02 {
+    display: flex;
+    width: 90%;
+    height: 20%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+}
+
+.Menu-02-alter {
+    display: flex;
+    width: 40%;
+    height: 14%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    justify-content: center;
+}
+
+
+.Menu-02-alter .Menu-04 {
+    display: none;
+}
+
+.Menu-03 {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.Menu-04 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Menu-04 p {
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.Menu-02:hover{
+    background-color: #657ed4;
+    color: black;
+}
+.Menu-04 p:hover{
+    color: aliceblue;
+}
+.set{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+.set p{
+    font-size: 1.1rem;
+}
+.set span{
+    font-size: 1.8rem;
+}
+.set-p-new{
+    display: none;
+}
